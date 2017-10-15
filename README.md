@@ -26,3 +26,9 @@ Before running the tests make sure you are serving the app via `ng serve`.
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Deploying to github pages
+
+To deploy to github pages run the following command
+
+`ngh --no-silent --email=email@server.com` with the approtiate email address since there is a bug in cli that asks for the email address even though you have set it in the config files.
